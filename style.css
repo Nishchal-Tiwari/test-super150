@@ -91,16 +91,20 @@
 }
 
 #i1 i {
-    z-index: 20;
+    z-index: 2;
     position: absolute;
     left: 45%;
     top: 45%;
-    display: none;
     font-size: xx-large;
+    display: none;
 }
 
-#i1:hover~i {
-    display: inline;
+#i1:hover i {
+    display: block;
+}
+
+#i1:hover {
+    filter: grayscale(100%)
 }
 
 #i1 {
